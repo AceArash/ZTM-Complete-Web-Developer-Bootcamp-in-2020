@@ -1,0 +1,16 @@
+/* Selector {
+    Property: value;
+} 
+Ctrl + '/'        */
+
+h2 {
+  color: red;
+}
+
+p {
+  color: #e67e22;
+}
+/* CSS is a Casscading tool*/
+p {
+  color: green;
+}
