@@ -2,15 +2,25 @@
     Property: value;
 } 
 Ctrl + '/'        */
-
-h2 {
-  color: red;
+body {
+  background-image: url("bg.jpg");
+  background-size: cover;
 }
 
-p {
-  color: #e67e22;
+h2 {
+  color: yellow;
+  text-align: center;
+  border: 5px double rgb(0, 128, 43);
+  padding: 10px;
+  cursor: none;
 }
 /* CSS is a Casscading tool*/
 p {
-  color: green;
+  color: rgb(126, 240, 126);
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
 }
