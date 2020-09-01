@@ -4,7 +4,8 @@
 Ctrl + '/'        */
 
 * {
-  text-align: right;
+  text-align: left;
+  margin: 20px;
 }
 body {
   background-image: url("bg.jpg");
@@ -15,13 +16,13 @@ h2,
 p {
   color: yellow;
   text-align: center;
-  border: 5px double rgb(0, 128, 43);
+  border: 5px double rgb(147, 245, 180);
   padding: 10px;
   cursor: pointer;
 }
 /* CSS is a Casscading tool*/
 p {
-  color: pink;
+  color: rgb(190, 57, 79);
   text-align: center;
 }
 
@@ -31,14 +32,44 @@ li {
 }
 
 .webtext {
-  border: 3px dashed rgba(197, 94, 235, 0.6);
+  border: 3px dashed rgba(94, 235, 153, 0.6);
 }
 .red {
-  color: red;
+  color: rgb(20, 2, 14);
 }
 #div1 {
-  background-color: rgb(231, 138, 128);
+  background-color: rgb(164, 128, 231);
 }
 #div2 {
   background-color: rgb(186, 239, 255);
 }
+/* cheat sheet for css 'CSS Selectors
+w3schools
+css tricks almanac
+
+
+.class{best way to group elements and give same css}  
+#id { ~~ class but only used once in code}
+* {universally applied to all elements}
+element {single element}
+element, element{ css applied to selected elements}
+element element {css applied to element within element}
+element > element {css to child of parents elements}
+element + element { select only element behind first 1}
+:hover {css applied when mouse hover on it}
+:last-child {css to first one }
+:first-child {css to last one}
+!important ()not recommened
+
+what selectors win out in cascading depends upon:
+Specificity: in line style in html wins Be more specific in naming
+Importance: !important 
+Source Order
+
+
+
+
+
+
+
+*/
