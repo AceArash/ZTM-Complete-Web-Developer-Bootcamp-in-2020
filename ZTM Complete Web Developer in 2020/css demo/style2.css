@@ -1,4 +1,40 @@
+* {
+  padding: 10px;
+  margin: 2px;
+  text-align: center;
+  list-style: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
 h2 {
   background-color: indigo;
   color: yellowgreen;
+  border-radius: 12px;
+  border: 6px double yellowgreen;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+  color: aqua;
+  border: 6px double yellowgreen;
+  text-decoration: underline;
+  text-transform: lowercase;
+  line-height: 20px;
+  font-weight: 120;
+  font-size: 125%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+img {
+  size: 100%;
+  width: 1200px;
+  height: 900px;
+  border-radius: 50px;
+  align-items: center;
+  border: 3px violet;
+}
+footer {
+  clear: both;
+  text-align: center;
+  text-decoration-line: underline;
 }
