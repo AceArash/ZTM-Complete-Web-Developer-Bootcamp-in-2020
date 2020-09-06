@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -13,10 +17,21 @@ h1 {
   border-top: 1px dotted mediumslateblue;
   width: 400px;
   text-align: center;
+  margin: 10px 0px;
+  box-shadow: 4px 4px 5px #555555;
 }
 
 img {
   width: 450px;
   height: 300px;
   margin: 12px;
+  transition: all 1s;
 }
+
+img:hover {
+  transform: scale(1.08);
+}
+
+/* CanIUse Website for CSS 
+Broweser support property: w3schools.com/cssref/css3_browsersupport.asp 
+browser prefix to make things in all browser*/
